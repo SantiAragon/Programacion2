@@ -1,0 +1,16 @@
+<h2>Sucursales</h2>
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Dirección</th>
+      <th>Cantidad de Empleados</th>
+    </tr>
+    <tr *ngFor="let sucursal of sucursales">
+      <td>{{ sucursal.Id_Suc }}</td>
+      <td>{{ sucursal.Nombre_Suc }}</td>
+      <td>{{ sucursal.Dir_Suc }}</td>
+      <td>{{ sucursal.Cant_Emp_Suc }}</td>
+    </tr>
+</table>
+

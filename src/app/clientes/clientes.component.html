@@ -1,0 +1,15 @@
+<h2>Cleintes</h2>
+<table>
+    <tr>
+      <th>Apellido del Cliente</th>
+      <th>Nombre</th>
+      <th>Saldo</th>
+      <th>Status</th>
+    </tr>
+    <tr *ngFor="let cliente of clientes">
+      <td>{{ cliente.Apellido }}</td>
+      <td>{{ cliente.Nombre }}</td>
+      <td>{{ cliente.Saldo }}</td>
+      <td>{{ cliente.Status }}</td>
+    </tr>
+</table>
